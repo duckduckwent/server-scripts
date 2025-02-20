@@ -115,8 +115,8 @@ OnBootSec specifies how long after boot it should trigger and OnUnitActiveSec sp
 Then enable the service and start it:
 ```
 sudo systemctl daemon-reload
-sudo systemctl enable overheat-monitor.timer
-sudo systemctl start overheat-monitor.timer
+sudo systemctl enable disk-monitor.timer
+sudo systemctl start disk-monitor.timer
 ```
 
 To verify the timer:
