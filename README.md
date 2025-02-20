@@ -43,6 +43,11 @@ sudo sensors-detect
 Once that's configured it should work. It can simply be tested by looking at the output of the 'sensors' command in the terminal.
 
 ## Systemd setup
+Don't forget to make your script executable. Do the following:
+```
+chmod u+x <path/to/script>
+```
+
 ### overheat-monitor
 Create a systemd service configuration file:
 ```
