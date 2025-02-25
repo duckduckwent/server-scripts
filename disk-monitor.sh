@@ -8,9 +8,9 @@ declare -A DISK_MAP=(
 )
 
 # constants
-THRESHOLDS=(70 80 90 95)                                          # disk space thresholds in %
-COOLDOWN_PERIOD_MINUTES=120                                       # in minutes (notification cooldown, only for highest threshold)
-NOTIFICATION_STATE_FILE="/tmp/disk_monitor_notification_state"    # temporary file for saving notifitacion state
+THRESHOLDS=(70 80 90 95)                                              # disk space thresholds in %
+COOLDOWN_PERIOD_MINUTES=120                                           # in minutes (notification cooldown, only for highest threshold)
+NOTIFICATION_STATE_FILE="/var/tmp/disk_monitor_notification_state"    # temporary file for saving notifitacion state
 
 # ntfy
 NTFY_URL="<ntfy-topic-url>"
